@@ -1,0 +1,177 @@
+Link for Advanced Css selectors exercise:
+https://codepen.io/colkmirea/pen/ExVavwv?editors=1100
+
+1. What is Semantic HTML? 
+    2. What is HTML used for? 
+
+        It is used to prescribe semantics, or meaning, to webpages and web applications.
+
+    3. What is an attribute and where do we put it?
+
+        A attribute provides more information for HTML tags.
+ 
+    4. What is the h1 tag used for? How many times should I use it on a page?
+
+        It is used for the main title or most important heading on a webpage. You should only use the h1 tag for optimal SEO.
+
+    5. Name two tags that have required attributes
+
+        <input> & <textarea>
+
+    6. What do we put in the head of our HTML document?
+
+         A group of introductory content or navigational aids. In addtion to links to other pages to support the functionality of a webpage.
+
+    7. What is an id?
+
+         It is a attribute that specifies a unique id for a HTML element
+
+    8. What elements can I add an id to? 
+
+        a header, footer, or menu. 
+
+    9. How many times can I use the same id on a page?
+
+        Preferably once
+ 
+    10. What is a class? 
+
+        A class is a attribute that specifies one or more class names for a HTML Element.
+
+    11. What elements can I add a class to?
+
+        links, paragraph, button, a span, headers, h1-h6, sections, etc.
+
+    12. How many times can I use the same class on a page?
+
+        once or multiple times
+
+    13. How do I get my link to open in a new tab?
+
+        By using <a href="link here"></a> or using <a href="link here" target="_blank">link</a>
+
+    14. What is the alt attribute in the image tag used for?
+
+         It is used to display alternate text if a image can't be viewed.
+
+    15. How do I reference an id?
+
+        by using the #id selector
+
+    16. What is the difference between a section and a div
+
+        Semantics, section groups together similar content whereas a div doesn't have meaning and is a generic container.
+        
+    17. What is CSS used for?
+
+        Cascading style sheets is used to style a webpage.
+
+    18. How to we select an element? Example - every h2 on the page
+
+        h2 {} would be how to select the example above.
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+        you would use a ID for the main h1 on the page and you would use a class for a single or multiple different elements you want to style, like <p>
+
+    20. How do we select classes in CSS?
+
+        by using a period before the name of the class like this, .class
+
+    21. How do we select a p element with a single class of “human””?
+
+        p.human
+
+    22. What is a parent child selector? When would this be useful? 
+
+        It means all elements that are a direct child of that parent. It would be useful by being specific in css to change a specific element that is nested in its parent or another child of the parent.
+
+    23. How do you select all links within a div with the class of sidebar?
+
+        a.sidebar
+    24. What is a pseudo selector?
+
+        It is a umbrella term used to cover both pseudo-classes and pseudo-elements.
+
+    25. What do we use the change the spacing between lines?
+
+        line-height
+
+    26. What do we use to change the spacing between letters?
+
+        letter-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+        text-transform
+
+    28. How do I add a 1px border around my div that is dotted and black?
+
+        div { 
+            border: 1px dotted black;
+        }
+    29. How do I select everything on the page?
+
+        using a * selector
+
+    30. How do I write a comment in CSS?
+
+        /*  */
+        
+    31. How do I find out what file I am in, when I am using the command line?
+
+       pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+        ls 
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+
+        rm <file>, to be sure that you are removing the exact file you want and nothing else since you aren't in a GUI 
+
+    34. Why should I use version control? 
+
+        It allows us to manage all versions of our code. If you made a mistake you can revert back to a earlier code.
+
+    35. How often should I commit to github?
+
+        Commit always and commit often
+
+    36. What is the command we would use to push our repo up to github?
+
+        git push
+
+    37. Walk me through Lambda's git flow.
+
+    1. Fork
+    2. Add your TL as a collaborator
+    3. Clone the repo
+    4. Create your own branch
+    5. Push your branch to github
+    6. Compare and Pull request
+    7. Add TL as a reviewer 
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+
+        Block elements take up the full width available whereas a inline element takes the required width to display the content of a element.
+
+    2. What happens when an element is positioned absolutely? 
+
+        the element is removed from the normal flow and should be put in a exact location on the page.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+        display: inline
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+       Block: <address> <nav> <section>
+       Inline: <a> <span>
+       Inline-Block: <button>
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+
+        The box model is a box that wraps around every HTML element. If the element is defined as being a block then the box will extend inline to fill the space as wide as its container and the box will break on a new line and the width property is respected.
